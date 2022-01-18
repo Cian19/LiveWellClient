@@ -1,0 +1,62 @@
+
+
+.card{
+    cursor: pointer;
+    transition: .2s;
+    position: relative;
+    top: 0;
+    transition: top ease .5s;
+  }
+  
+  .card:hover{
+    box-shadow: 5px 10px 20px 1px rgb(138, 138, 138);
+    top: -2px;
+  }
+  .card h5{
+    margin-bottom: 10px;
+  }
+  .card ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  .card ul li{
+    margin-bottom: 10px;
+  }
+
+
+  .dishType{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-family: 'Montserrat';
+    font-weight: 300;
+  }
+
+  @media (min-width: 320px){
+    .col-sm-12 h2{
+      margin-bottom: 20px;
+    }
+    .col-sm-12{
+      margin-bottom: 20px;
+    }
+  }
+  /* @media (min-width: 768px){
+    .card{
+      width: 30rem;
+    }
+  }
+  @media (min-width: 992px){
+    .card{
+      width: 18rem;
+    }
+  }
+  @media (min-width: 992px){
+    .card{
+      width: 18rem;
+    }
+  }
+
+  @media (min-width: 1400px){
+    .card{
+      width: 25rem;
+    }
+  } */

@@ -1,0 +1,225 @@
+.homeContainer{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+.homeContainer .row{
+    padding-left: 0;
+    padding-right: 0;
+}
+.bgimg{
+    opacity: .5;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.content .btn{
+    background-color: #3e84be;
+    font-weight: bold;
+    width: 200px;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+.content .btn:hover{
+    color: white;
+}
+.mainimage h3 button{
+    position: absolute;
+}
+.content{
+    position: absolute;
+    background-color: rgb(100, 163, 235);
+    padding: 20px 0 20px 0;
+}
+.content h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.content h3{
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: white;
+    text-transform: uppercase;
+}
+@media (min-width: 320px){
+    .mainimg{
+        /* margin-bottom: 20px; */
+    }
+    .bgimg{
+        opacity: 1;
+    }
+    .content{
+        position: relative;
+    }
+    .content h1{
+        font-size: 1.3em;
+        margin-bottom: 5px;
+    }
+    .content h3{
+        font-size: .8em;
+        margin-bottom: 5px;
+    }
+    .content .btn{
+        font-size: .6em;
+        line-height: .3em;
+        width: 100px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 500px){
+    .mainimg{
+        /* margin-bottom: 20px; */
+    }
+    .bgimg{
+        opacity: 1;
+    }
+    .content{
+        position: relative;
+    }
+    .content h1{
+        font-size: 1.3em;
+        margin-bottom: 5px;
+    }
+    .content h3{
+        font-size: .8em;
+        margin-bottom: 5px;
+    }
+    .content .btn{
+        font-size: .6em;
+        line-height: .3em;
+        width: 100px;
+        height: 20px;
+    }
+
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .content{
+        /* padding-top: 50px; */
+    /* width: 400px; */
+    position: relative;
+
+
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .HomeContainer{
+        max-width: 100%;
+    }
+    .homeContainer .row{
+        /* padding-top: 20px; */
+    }
+    .bgimg{
+        opacity: .5;
+    }
+    
+    /* .cont{
+        display: flex;
+        position: relative;
+    }
+    .image{
+        padding: 30px;
+        background-color: red;
+        margin-right: 1000px;
+        flex: 1;
+    }
+    .image img{
+        width: 800px;
+    }
+    .content{
+        padding: 200px 0;
+        flex: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .content h3{
+        color: black;
+    } 
+    .col-md-7{
+        position: relative;
+    }
+*/
+    .content{
+        margin-bottom: 0px;
+        position: absolute;
+        /* height: 150px; */
+        /* padding-top: 50px; */
+    }
+    .content h1{
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+    .content h3{
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+    .content .btn{
+        width: 120px;
+        height: 30px;
+        font-size: .8em;
+        line-height: .5em;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .homeContainer{
+        max-width: 100%;
+    }
+    .homeContainer .row{
+        /* padding-top: 20px; */
+    }
+
+    .content{
+        /* height: 200px; */
+    }
+    .content h1{
+        margin-bottom: 10px;
+        font-size: 2.3em;
+    }
+    .content h3{
+        margin-bottom: 10px;
+        font-size: 1.3em;
+        letter-spacing: .1em;
+    }
+    .content .btn{
+        width: 120px;
+        height: 30px;
+        font-size: .8em;
+        line-height: .5em;
+    }
+    .mainimg{
+        /* padding: 50px; */
+    }
+}
+
+@media (min-width: 1366px){
+    .content{
+        /* height: 160px; */
+    }
+    .content h1{
+        margin-bottom: 10px;
+        font-size: 2.3em;
+    }
+    .content h3{
+        margin-bottom: 15px;
+        font-size: 1.3em;
+        letter-spacing: .1em;
+    }
+    .content .btn{
+        width: 180px;
+        height: 50px;
+        font-size: 1.2em;
+        /* line-height: .8em; */
+    }
+}

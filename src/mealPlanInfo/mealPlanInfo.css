@@ -1,0 +1,93 @@
+.mealPlanInfoContainer{
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.mealPlanFormContainer{
+  width: 60%;
+}
+.row:nth-child(1){
+  margin-bottom: 20px;
+}
+.align-items-center p{
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: .1em;
+}
+
+/* .mealPlanFormContainer{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin:auto;
+} */
+
+.formGroupGoal,
+.formGroupWeight,
+.formGroupTotalCaloires,
+.formGroupHealthPref,
+.formGroupDietaryPref,
+.formGroupCostPerMeal,
+.formGroupReadyInMins{
+  margin-bottom: 20px;
+}
+
+.formGroupGoal .form-label,
+.formGroupWeight .form-label,
+.formGroupTotalCalories .form-label,
+.formGroupHealthPref .form-label,
+.formGroupDietaryPref .form-label,
+.formGroupCostPerMeal .form-label,
+.formGroupReadyInMins .form-label{
+  float: left;
+}
+
+.form-group, .form-select{
+  margin-bottom: 10px;
+}
+.container .form-control{
+  border: 1px solid rgb(194, 194, 194);
+}
+a{
+  text-decoration: none;
+}
+
+label{
+  text-transform: uppercase;
+  font-size: .8em;
+  color: grey;
+}
+
+.getRecipesBtn{
+  border: 0;
+  background-color: #669aed;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  width: 100%;
+}
+
+
+@media (min-width: 320px){
+  .container-fluid{
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px){
+  .container-fluid{
+    width: 80%;
+  }
+}
+@media (min-width: 992px){
+  .container-fluid{
+    width: 80%;
+  }
+}
+
+@media (min-width: 1600px){
+  .container-fluid{
+    width: 60%;
+  }
+}

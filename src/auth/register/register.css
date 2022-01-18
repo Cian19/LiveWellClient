@@ -1,0 +1,28 @@
+.registerFormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 50px;
+    margin: auto;
+}
+.formGroupname{
+    margin-bottom: 20px;
+}
+
+.formGroupPassword{
+    margin-bottom: 20px;
+}
+
+.registerBtn{
+    border: 0;
+    background-color: #669aed;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+}
+
+.login{
+    margin-top: 20px;
+}
