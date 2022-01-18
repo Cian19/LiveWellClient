@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/auth/auth", {
+      .get("eu-cdbr-west-02.cleardb.net/auth/auth", {
         headers: {
           accessToken: localStorage.getItem("accessToken"),
         },
