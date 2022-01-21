@@ -51,7 +51,7 @@ function MealPlanInfo() {
   }
 
   const getRecipes = () => {
-    axios.post("https://newreactappnew.herokuapp.com/info", {
+    axios.post("https://livewellapp.herokuapp.com/info", {
       maxCalories: maxCalories,
       weight: weight,
       dietaryPref: dietaryPref,
