@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("eu-cdbr-west-02.cleardb.net/auth/auth", {
+      .get("https://livewellapp.herokuapp.com/auth/auth", {
         headers: {
           accessToken: localStorage.getItem("accessToken"),
         },
