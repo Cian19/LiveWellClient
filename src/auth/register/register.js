@@ -56,6 +56,7 @@ const Register = () => {
                     setLoginStatus(res.data.message)
                 } else {
                   alert(res.data)
+                  console.log(res.data)
                     history.push('/login');
                     // console.log(username)
                 }
