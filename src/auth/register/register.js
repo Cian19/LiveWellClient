@@ -57,6 +57,7 @@ console.log(username);
                 } else {
                   alert(res.data)
                     history.push('/login');
+                    console.log(username)
                 }
             });
         }
