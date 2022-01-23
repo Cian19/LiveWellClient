@@ -65,7 +65,7 @@ const Login = () => {
           id: res.data.id,
           status: true,
         });
-        console.log(authState.username);
+        console.log(username);
         history.push("/");
       }
     });
