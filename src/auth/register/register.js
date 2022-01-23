@@ -52,12 +52,13 @@ const Register = () => {
                 username: username,
                 password: password,
             }).then((res) => {
+              console.log(res);
                 if(res.data.message) {
                   console.log(res);
                     setLoginStatus(res.data.message)
                 } else {
                   alert(res.data)
-                  console.log(res.data);
+                  // console.log(res.data);
                     history.push('/login');
                     // console.log(username)
                 }
