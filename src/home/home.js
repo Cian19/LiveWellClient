@@ -5,7 +5,7 @@ import './home.css';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 
 const Home = ({authState, setAuthState}) => {
-    console.log(authState)
+    // console.log(authState)
     return (
         <div className="homeContainer" fluid>
             <Row className="align-items-center mainimage">
