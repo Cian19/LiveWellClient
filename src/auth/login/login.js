@@ -7,6 +7,7 @@ import { useHistory } from 'react-router';
 import { AuthContext } from '../../helpers/AuthContext';
 
 const Login = () => {
+  console.log(username);
 
     const [username, setname] = useState("");
     const [password, setPassword] = useState("");

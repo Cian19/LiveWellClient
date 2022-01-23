@@ -6,7 +6,7 @@ import { Container, Form, FormLabel } from 'react-bootstrap';
 import './register.css';
 
 const Register = () => {
-
+console.log(username);
     const [username, setname] = useState("");
     const [password, setPassword] = useState("");
     const [loginStatus, setLoginStatus] = useState("");
